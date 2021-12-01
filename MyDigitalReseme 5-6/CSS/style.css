@@ -11,8 +11,8 @@ body {
     justify-content: space-around;
     min-height: 8vh;
     background-color:rgba(225, 225, 225, 1);
-
-
+    
+    
 }
 .primary-nav {
     
@@ -68,11 +68,11 @@ a {
     
 }
 .sidebar{
+    
     position: relative;
-    padding-left: 30px;
+    padding-left: 2.5em;
     padding-top: 5em;
-    width: 1em;
-    font-family: 'Poppins', sans-serif;
+    width: 13.5em;
     bottom: 10px;
 }
 
@@ -88,22 +88,85 @@ a {
 }
 
 .face {
-    position: relative;
-    left: 80ex;
-    bottom: 13.5ex;
+    position: absolute;
+    left: 40rem;
+    top: .5rem;
     border-radius: 90px;
+    object-fit: cover;
+    display: flex;
+    border: .5px solid 
+    
 }
 
-h2 {
+.si {
+    font-size: 13.5px;
+    width: 12em;
+    
+}
+
+#extra {
+    padding: 20px;
+    text-align: justify;
+}
+
+.sub-heading {
+
+}
+
+#sub-sub {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.professionalprofile {
+    padding-top: 6em;
+}
+.Expert {
+    padding-top: 6em;
+
+}
+
+li {
     font-weight: bold;
 }
 
+.contact-image {
+    position: relative;
+    right: 25px;
+    top: 10px;
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+}
+
+.short-heading {
+    position: relative;
+    left: 20.5em;
+    bottom: 2.5em;
+    font-size: .7em;
+    color: rgb(168, 163, 163);
+}
+.sub-heading {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: poppins; 
+
+}
+
+.short-image {
+    position: relative;
+    right: 20px;
+}
+
+h1{
+    font-weight: bold;
+}
 .italic {
     font-style: italic;
+    font-size: 16px ;
 }
-  
-p{
-    font-size: 16px;
-}
+
+
 
 
